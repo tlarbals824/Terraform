@@ -1,0 +1,40 @@
+### csv ###
+*.csv
+
+
+### .idea ###
+.idea/**
+
+
+### pem ###
+*.pem
+**/*.pem
+
+### key ###
+*.key
+**/*.key
+*.key.pub
+**/*.key.pub
+
+
+### terraform ###
+*.tfstate
+*.tfstate.backup
+*.tfvars
+**/*.tfstate
+**/*.tfstate.backup
+**/*.tfvars
+*.terraform
+**/.terraform
+*.tfplan
+**/*.tfplan
+*.tfout
+**/*.tfout
+*.tflock
+**/*.tflock
+*.lock.hcl
+**/*.lock.hcl
+
+
+### oci ###
+oci/.oci/**
